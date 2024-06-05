@@ -1,6 +1,6 @@
 #include "user_server_application.h"
 #include "../database/database.h"
-#include "user_request_handler_factory/user_handler_factory.h"
+#include "user_handler_factory.h"
 
 #include <Poco/Net/ServerSocket.h>
 #include <Poco/Net/HTTPServer.h>
